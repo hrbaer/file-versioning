@@ -1,7 +1,7 @@
 
 import FileVersioning from './main.js'
 
-const filename = './files/xxx.txt'
+const filename = './files/file.txt'
 const fv = FileVersioning()
 
 
