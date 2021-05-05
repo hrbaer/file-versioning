@@ -1,5 +1,5 @@
 {
-  "name": "@hrbaer/file-versioning",
+  "name": "file-versioning",
   "version": "1.0.0",
   "description": "Simple file versioning",
   "type": "module",
