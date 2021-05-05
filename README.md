@@ -7,32 +7,31 @@ To keep previous file versions, an already existing file will be assigned a uniq
 
 ## Installation
 
-<pre>
-  npm install file-versioning
-</pre>
+```
+npm install file-versioning
+```
 
 ## Example
 
-<pre>
+
+```  
+ import FileVersioning from 'file-versioning'
+
+ const fv = FileVersioning()
+
+ async function saveVersion(filename, content) {
+   try {
+     await fv.writeFileVersion(filename, content)
+   }
+   catch (e) {
+     console.error(e)
+   }
+ }
   
-  import FileVersioning from 'file-versioning'
-
-  const fv = FileVersioning()
-
-  async function saveVersion(filename, content) {
-    try {
-      await fv.writeFileVersion(filename, content)
-    }
-    catch (e) {
-      console.error(e)
-    }
-  }
-  
-  await saveVersion('./files/file.txt', 'content of file')
-  // ...
-  await saveVersion('./files/file.txt', 'more recent content of file')
-
-</pre>
+ await saveVersion('./files/file.txt', 'content of file')
+ // ...
+ await saveVersion('./files/file.txt', 'more recent content of file')
+```
 
 ## API
 
