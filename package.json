@@ -1,0 +1,16 @@
+{
+  "name": "file-versioning",
+  "version": "1.0.0",
+  "description": "Simple file versioning",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "File",
+    "versioning"
+  ],
+  "author": "H. R. Baer",
+  "license": "ISC"
+}
