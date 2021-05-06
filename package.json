@@ -7,6 +7,9 @@
   "scripts": {
     "test": "node test.js"
   },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/hrbaer/file-versioning.git"
